@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alas de Familia | Innovación Agroecológica y Desarrollo en Río Negro</title>
+    
+    <!-- Metadatos de SEO -->
+    <meta name="description" content="En Alas de Familia transformamos la producción avícola en Río Negro mediante hidroponía móvil, sustentabilidad y desarrollo comunitario integral. Conoce el proyecto.">
+    <meta name="keywords" content="Alas de Familia, Río Negro, avicultura, hidroponía móvil, agroecología, sustentabilidad, Patagonia, desarrollo local, inversión social">
+    <meta name="author" content="Alas de Familia">
+    
+    <!-- Open Graph (Compartir en Redes Sociales) -->
+    <meta property="og:title" content="Alas de Familia - Innovación Agroecológica con Impacto Social">
+    <meta property="og:description" content="Transformación productiva en la Patagonia con sistemas de hidroponía móvil y desarrollo comunitario.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.alasdefamilia.com.ar">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232c5e3b%22/><path d=%22M30 45 C40 30, 60 30, 70 45 C60 55, 40 55, 30 45 Z%22 fill=%22%235caf3b%22/><path d=%22M35 50 C45 42, 55 42, 65 50%22 stroke=%22%23ffffff%22 stroke-width=%223%22 fill=%22none%22/></svg>">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- --- Header --- -->
+    <header class="header" id="header">
+        <div class="container nav-wrapper">
+            <a href="#inicio" class="logo" id="logo-link">
+                <!-- Icono de Alas de Familia (Alas + Hoja) -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12c0 3.25 1.55 6.14 3.94 8L12 14.5V22l6.06-2C20.45 18.14 22 15.25 22 12c0-5.52-4.48-10-10-10zm0 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.55 5.95L12 21.5v-3.55l3.55 1.77c.36-1.12.82-2.26 1.4-3.41-1.3.43-2.6.49-3.9.19v-1.12c1.7.4 3.4.3 5-.3-1.05 1.8-2.05 3.1-2.5 4.63z" />
+                </svg>
+                <span>Alas de Familia</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#inicio" class="active" id="nav-link-inicio">Inicio</a></li>
+                    <li><a href="#nosotros" id="nav-link-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#pilares" id="nav-link-pilares">Pilares</a></li>
+                    <li><a href="#ciclo" id="nav-link-ciclo">Ciclo Productivo</a></li>
+                    <li><a href="#sumate" id="nav-link-sumate">Participar</a></li>
+                    <li><a href="#contacto" id="nav-link-contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-actions">
+                <!-- Botón de Modo Oscuro -->
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Cambiar tema de color">
+                    <!-- Luna (Modo Oscuro) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .2 1.1.7.2.5-.1 1.1-.6 1.3-3.2 1.2-5.3 4.3-5.3 7.8 0 4.4 3.6 8 8 8 3.5 0 6.6-2.1 7.8-5.3.2-.5.7-.8 1.3-.6.5.2.8.7.7 1.2-.9 4.7-5 8.2-9.8 8.2-1.4 0-1.4 0-.2 0z"/>
+                    </svg>
+                    <!-- Sol (Modo Claro) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.38.39-1.02 0-1.41zm-12.37 12.37c-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06c.39-.38.39-1.02 0-1.41z"/>
+                    </svg>
+                </button>
+                
+                <!-- Botón Menú Hamburguesa -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- Sección Principal (Hero) --- -->
+    <section class="hero" id="inicio">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="section-badge">Innovación Agroecológica</span>
+                <h1 class="hero-title" id="main-hero-title">Innovación agroecológica con impacto social en Río Negro.</h1>
+                <p class="hero-subtitle">
+                    En Alas de Familia transformamos la producción avícola local integrando sistemas de hidroponía móvil, sustentabilidad y desarrollo comunitario.
+                </p>
+                <div class="hero-actions">
+                    <a href="#ciclo" class="btn btn-primary" id="cta-conocenos">Conocé el Proyecto</a>
+                    <a href="#contacto" class="btn btn-secondary" id="cta-contactanos">Contactanos</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-graphic-bg"></div>
+                <div class="hero-svg-wrapper">
+                    <!-- Ilustración conceptual: Granja Tecnológica & Circular -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+                        <!-- Círculos concéntricos de ciclo ecológico -->
+                        <circle cx="250" cy="250" r="190" fill="none" stroke="var(--card-border)" stroke-width="2" stroke-dasharray="10 5" />
+                        <circle cx="250" cy="250" r="150" fill="none" stroke="var(--accent-glow)" stroke-width="3" />
+                        
+                        <!-- Módulo de Hidroponía Móvil (Invernadero conceptual) -->
+                        <g transform="translate(180, 80)">
+                            <!-- Estructura del domo/módulo -->
+                            <path d="M 0 80 Q 70 0 140 80 Z" fill="none" stroke="var(--primary)" stroke-width="4" />
+                            <path d="M 20 80 Q 70 20 120 80 Z" fill="none" stroke="var(--accent)" stroke-width="2" />
+                            <rect x="0" y="80" width="140" height="20" rx="5" fill="var(--primary)" />
+                            <!-- Plantas creciendo en bandeja -->
+                            <path d="M 25 80 Q 30 65 35 80 M 30 80 Q 35 60 40 80 M 70 80 Q 75 62 80 80 M 105 80 Q 110 65 115 80" stroke="var(--accent)" stroke-width="3" fill="none" stroke-linecap="round" />
+                            <circle cx="70" cy="90" r="4" fill="var(--secondary)" />
+                        </g>
+
+                        <!-- Avicultura (Gallina / Huevo conceptual estilizado) -->
+                        <g transform="translate(80, 260)">
+                            <circle cx="60" cy="60" r="50" fill="var(--card-bg)" stroke="var(--card-border)" stroke-width="2" />
+                            <!-- Silueta minimalista gallina -->
+                            <path d="M 30 65 Q 40 30 60 35 Q 75 40 85 30 Q 90 40 85 55 Q 80 75 55 75 Q 35 75 30 65 Z" fill="var(--primary)" />
+                            <!-- Pico y Cresta -->
+                            <path d="M 85 35 L 92 37 L 85 41 Z" fill="var(--secondary)" />
+                            <path d="M 75 32 Q 80 22 85 30" fill="none" stroke="var(--accent)" stroke-width="3" />
+                            <!-- Huevos -->
+                            <ellipse cx="65" cy="72" rx="8" ry="11" fill="#ffffff" stroke="var(--card-border)" stroke-width="1.5" transform="rotate(15 65 72)" />
+                            <ellipse cx="45" cy="74" rx="7" ry="10" fill="#ffffff" stroke="var(--card-border)" stroke-width="1.5" transform="rotate(-15 45 74)" />
+                        </g>
+
+                        <!-- Impacto Local / Comunidad (Casas + Red) -->
+                        <g transform="translate(280, 260)">
+                            <circle cx="70" cy="60" r="50" fill="var(--card-bg)" stroke="var(--card-border)" stroke-width="2" />
+                            <!-- Icono familiar/hogares -->
+                            <polygon points="40,65 40,45 60,30 80,45 80,65" fill="var(--primary)" />
+                            <polygon points="50,65 50,53 70,53 70,65" fill="var(--card-bg)" />
+                            
+                            <polygon points="75,70 75,55 90,43 105,55 105,70" fill="var(--accent)" />
+                            
+                            <path d="M 25 35 C 35 15, 65 15, 75 35" stroke="var(--secondary)" stroke-width="2" stroke-dasharray="4 2" fill="none" />
+                        </g>
+                        
+                        <!-- Flechas de ciclo de retroalimentación -->
+                        <path d="M 175 190 A 130 130 0 0 1 125 250" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)" />
+                        <path d="M 200 325 A 130 130 0 0 1 295 325" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+                        <path d="M 360 250 A 130 130 0 0 1 315 175" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Sobre Nosotros --- -->
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <div class="section-title-wrapper reveal">
+                <span class="section-badge">Nuestra Identidad</span>
+                <h2 class="section-title">Sobre Nosotros</h2>
+            </div>
+            
+            <div class="about-card reveal">
+                <div class="about-text">
+                    <blockquote class="about-quote">
+                        "Familia, desarrollo real y un futuro compartido."
+                    </blockquote>
+                    <p>
+                        Hola, soy <strong>Juan Andrés Balogh</strong>, emprendedor de Río Negro. Alas de Familia nace de la convicción de que los proyectos productivos del futuro deben ser eficientes, respetuosos con el medio ambiente y, por sobre todas las cosas, transformadores para su comunidad.
+                    </p>
+                    <p>
+                        No buscamos solo producir de manera lineal; buscamos integrar tecnologías limpias y generar un ecosistema colaborativo que permita que nuestra región crezca y se desarrolle a la par nuestra.
+                    </p>
+                    
+                    <div class="about-author">
+                        <div class="avatar-placeholder">JB</div>
+                        <div class="author-info">
+                            <h4>Juan Andrés Balogh</h4>
+                            <span>Fundador & Emprendedor</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-badges">
+                    <div class="about-badge-item">
+                        <div class="about-badge-icon">
+                            <!-- Planta / Brote -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12c0 2.74 1.1 5.22 2.88 7.03l1.41-1.41C4.83 16.14 4 14.17 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 2.17-.83 4.14-2.28 5.62l1.41 1.41C20.9 17.22 22 14.74 22 12c0-5.52-4.48-10-10-10zm-1 8h2v6h-2zm0-4h2v2h-2z"/>
+                            </svg>
+                        </div>
+                        <h3>100%</h3>
+                        <p>Ecológico</p>
+                    </div>
+                    
+                    <div class="about-badge-item">
+                        <div class="about-badge-icon">
+                            <!-- Personas / Red -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                            </svg>
+                        </div>
+                        <h3>Impacto</h3>
+                        <p>Social Real</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Pilares del Proyecto --- -->
+    <section class="section" id="pilares">
+        <div class="container">
+            <div class="section-title-wrapper reveal">
+                <span class="section-badge">¿Cómo lo hacemos?</span>
+                <h2 class="section-title">Pilares del Proyecto</h2>
+            </div>
+            
+            <div class="pilares-grid">
+                <!-- Pilar 1: Innovación -->
+                <div class="pilar-card reveal" id="pilar-innovacion">
+                    <div class="pilar-icon-wrapper">
+                        <!-- Invernadero/Tecnología -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm1-7h-2v2H9v2h2v2h2v-2h2v-2h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pilar-title">Avicultura e Hidroponía Móvil</h3>
+                    <p>
+                        Trabajamos en la producción avícola combinada con módulos de forraje verde hidropónico móvil. Esta tecnología optimiza los recursos, garantiza la máxima calidad alimentaria y construye un modelo altamente sustentable y productivo.
+                    </p>
+                </div>
+                
+                <!-- Pilar 2: Comunidad -->
+                <div class="pilar-card reveal" id="pilar-comunidad">
+                    <div class="pilar-icon-wrapper">
+                        <!-- Manos / Comunidad -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pilar-title">Desarrollo Local y Social</h3>
+                    <p>
+                        Promovemos la participación ciudadana activa y moderna. Generamos oportunidades reales de empleo genuino y capacitación técnica en la región, integrando a las familias locales directamente en toda nuestra cadena de valor.
+                    </p>
+                </div>
+                
+                <!-- Pilar 3: Confianza -->
+                <div class="pilar-card reveal" id="pilar-confianza">
+                    <div class="pilar-icon-wrapper">
+                        <!-- Transparencia / Gráfico -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm4 0h-2V7h2v10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="pilar-title">Transparencia y Futuro</h3>
+                    <p>
+                        Creemos en los procesos abiertos y claros. Creamos un canal transparente donde cada actor de nuestra red —desde trabajadores hasta inversores— puede acompañar y verificar en tiempo real el crecimiento sustentable del proyecto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Componente Interactivo: Ciclo Agroecológico --- -->
+    <section class="section cycle-section" id="ciclo">
+        <div class="container">
+            <div class="section-title-wrapper reveal">
+                <span class="section-badge">Tecnología en Acción</span>
+                <h2 class="section-title">El Ciclo Ecológico Alas de Familia</h2>
+            </div>
+            
+            <div class="cycle-container reveal">
+                <div class="cycle-grid">
+                    <!-- Interactivos (Botones de Nodos) -->
+                    <div class="cycle-interactive">
+                        <div class="cycle-node active" data-node="hidroponia" id="btn-node-hidroponia">
+                            <div class="cycle-node-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M17 8C14.24 8 12 10.24 12 13c0 2.76 2.24 5 5 5s5-2.24 5-5c0-2.76-2.24-5-5-5zm-5-3c-3.87 0-7 3.13-7 7 0 2.22 1.03 4.2 2.64 5.5.4.34.98.27 1.3-.15.31-.41.24-.99-.17-1.3C7.57 15.08 7 13.61 7 12c0-2.76 2.24-5 5-5s5 2.24 5 5c0 .34-.04.67-.11.99.37.1.77.22 1.13.38.56-.47.98-1.07 1.25-1.74-1.17-.55-2.51-.88-3.92-.88-2.61 0-4.99 1.14-6.64 2.97-.4.43-.37 1.11.06 1.5.43.4 1.11.37 1.5-.06C11.58 13.84 13.19 13 15 13c.27 0 .54.02.8.06C15.93 11.23 14.15 9.7 12 9.7V5z"/>
+                                </svg>
+                            </div>
+                            <span class="cycle-node-title">1. Hidroponía Móvil</span>
+                        </div>
+                        
+                        <div class="cycle-node" data-node="avicultura" id="btn-node-avicultura">
+                            <div class="cycle-node-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 3.54 1.84 6.66 4.64 8.46l.72-1.8A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.94-.69 3.72-1.84 5.12l1.62 1.62C21.16 16.89 22 14.54 22 12c0-5.52-4.48-10-10-10zm-1 8h2v6h-2zm0-4h2v2h-2z"/>
+                                </svg>
+                            </div>
+                            <span class="cycle-node-title">2. Avicultura Integrada</span>
+                        </div>
+                        
+                        <div class="cycle-node" data-node="sustentabilidad" id="btn-node-sustentabilidad">
+                            <div class="cycle-node-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 2.76 1.12 5.26 2.93 7.07L6.34 17.65C4.89 16.2 4 14.2 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 2.2-.89 4.2-2.34 5.65l1.41 1.41C18.88 17.26 20 14.76 20 12c0-5.52-4.48-10-10-10zm-1 8h2v6h-2zm0-4h2v2h-2z"/>
+                                </svg>
+                            </div>
+                            <span class="cycle-node-title">3. Nutrición Orgánica</span>
+                        </div>
+                        
+                        <div class="cycle-node" data-node="comunidad" id="btn-node-comunidad">
+                            <div class="cycle-node-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15.93c-3.95-.49-7-3.85-7-7.93v-1h2v1c0 2.76 2.24 5 5 5v2.93zM18.9 15c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H9v-2h2c.55 0 1-.45 1-1V6h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                                </svg>
+                            </div>
+                            <span class="cycle-node-title">4. Desarrollo Circular</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Panel de Visualización del Nodo Activo -->
+                    <div class="cycle-display" id="cycle-display-panel">
+                        <div class="cycle-display-icon" id="cycle-display-icon">
+                            <!-- Icono Dinámico (Inicializado con Hidroponía) -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M17 8C14.24 8 12 10.24 12 13c0 2.76 2.24 5 5 5s5-2.24 5-5c0-2.76-2.24-5-5-5zm-5-3c-3.87 0-7 3.13-7 7 0 2.22 1.03 4.2 2.64 5.5.4.34.98.27 1.3-.15.31-.41.24-.99-.17-1.3C7.57 15.08 7 13.61 7 12c0-2.76 2.24-5 5-5s5 2.24 5 5c0 .34-.04.67-.11.99.37.1.77.22 1.13.38.56-.47.98-1.07 1.25-1.74-1.17-.55-2.51-.88-3.92-.88-2.61 0-4.99 1.14-6.64 2.97-.4.43-.37 1.11.06 1.5.43.4 1.11.37 1.5-.06C11.58 13.84 13.19 13 15 13c.27 0 .54.02.8.06C15.93 11.23 14.15 9.7 12 9.7V5z"/>
+                            </svg>
+                        </div>
+                        <h3 id="cycle-display-title">Forraje Verde Hidropónico Móvil</h3>
+                        <p id="cycle-display-desc">
+                            Diseñamos módulos móviles de cultivo hidropónico que producen forraje fresco, altamente nutritivo y constante los 365 días del año. Este sistema optimiza al máximo el agua y el suelo patagónico, sentando las bases del alimento premium para nuestra producción avícola.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Sumate a la Red (Inversión & Participación) --- -->
+    <section class="section join" id="sumate">
+        <div class="container join-grid">
+            <div class="join-content reveal">
+                <span class="section-badge">Inversión y Futuro</span>
+                <h2>Sumate a la Red Productiva</h2>
+                <p>
+                    ¿Querés ser parte del futuro productivo de la región? Buscamos personas que compartan nuestra visión de sustentabilidad y quieran apostar por la innovación local. Ofrecemos un modelo de participación transparente y con un fuerte retorno social y productivo.
+                </p>
+                <ul class="join-benefits">
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Modelo de inversión transparente y sustentable.
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Impacto directo en la creación de empleo local en Río Negro.
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                        Producción de alimentos saludables de alta demanda.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="join-form-wrapper reveal">
+                <form id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="form-name">Nombre Completo</label>
+                        <input type="text" id="form-name" class="form-control" placeholder="Juan Pérez" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-email">Correo Electrónico</label>
+                        <input type="email" id="form-email" class="form-control" placeholder="juan@ejemplo.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-phone">Teléfono de Contacto</label>
+                        <input type="tel" id="form-phone" class="form-control" placeholder="2920-XXXXXX" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-interest">Tipo de Participación</label>
+                        <select id="form-interest" class="form-control" style="color: #ffffff; background: var(--primary-light); cursor: pointer;">
+                            <option value="inversor" style="background: var(--background); color: var(--text-primary);">Quiero Invertir</option>
+                            <option value="informacion" style="background: var(--background); color: var(--text-primary);">Saber más del proyecto</option>
+                            <option value="comunidad" style="background: var(--background); color: var(--text-primary);">Quiero sumarme a la red local</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-message">Mensaje / Consulta</label>
+                        <textarea id="form-message" class="form-control" rows="4" placeholder="¿Cómo te gustaría colaborar con nosotros?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-form" id="btn-submit-form">Quiero Invertir / Saber Más</button>
+                    
+                    <div class="form-feedback" id="form-feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- Footer / Contacto --- -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Info Alas -->
+                <div class="footer-info">
+                    <a href="#inicio" class="logo" style="margin-bottom: 1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12c0 3.25 1.55 6.14 3.94 8L12 14.5V22l6.06-2C20.45 18.14 22 15.25 22 12c0-5.52-4.48-10-10-10zm0 10c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.55 5.95L12 21.5v-3.55l3.55 1.77c.36-1.12.82-2.26 1.4-3.41-1.3.43-2.6.49-3.9.19v-1.12c1.7.4 3.4.3 5-.3-1.05 1.8-2.05 3.1-2.5 4.63z" />
+                        </svg>
+                        <span>Alas de Familia</span>
+                    </a>
+                    <p>
+                        Transformando la producción agropecuaria regional con innovación tecnológica limpia, impacto social y máxima transparencia en la Patagonia.
+                    </p>
+                </div>
+                
+                <!-- Links de Navegación Rápida -->
+                <div>
+                    <h3 class="footer-links-title">Navegación</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#pilares">Pilares del Proyecto</a></li>
+                        <li><a href="#ciclo">Ciclo Ecológico</a></li>
+                        <li><a href="#sumate">Sumate a la Red</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Datos de Contacto directos -->
+                <div>
+                    <h3 class="footer-links-title">Contacto</h3>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <!-- Teléfono -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                            <a href="tel:+542920400803" id="contact-phone">2920-400803</a>
+                        </li>
+                        <li>
+                            <!-- Ubicación -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                            <span id="contact-address">Río Negro, Patagonia Argentina</span>
+                        </li>
+                        <li>
+                            <!-- Sitio Web -->
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14c-.16-.64-.26-1.31-.26-2s.1-1.36.26-2h3.38c-.08.66-.14 1.33-.14 2 0 .67.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 0 1 5.08 16zm2.95-8H5.08a7.987 7.987 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.33-.16-2 0-.67.07-1.34.16-2h4.68c.09.66.16 1.33.16 2 0 .67-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a7.987 7.987 0 0 1-4.33 3.56zM16.36 12c0-.67-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38c.08-.66.14-1.33.14-2z"/>
+                            </svg>
+                            <a href="https://www.alasdefamilia.com.ar" target="_blank" rel="noopener" id="contact-website">www.alasdefamilia.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alas de Familia. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm13 2h-2.5A3.5 3.5 0 0 0 12 8.5V11h-2v3h2v7h3v-7h3v-3h-3V9a1 1 0 0 1 1-1h2V5z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Principal -->
+    <script src="app.js"></script>
+</body>
+</html>
